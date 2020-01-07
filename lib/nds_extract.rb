@@ -40,7 +40,7 @@ def total_gross(source)
 
   pp directors_totals(source)
   pp list_of_directors(source)
-  
+
   # Write this implementation
   #
   # Should use methods:
