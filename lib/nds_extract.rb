@@ -44,7 +44,8 @@ def total_gross(source)
   grand_total = 0
   count = 0
   while count < directors.length
-    grand_total += directors[directors_list[count]]
+    director_being_added_to_count = directors_list[count]
+    pp director_being_added_to_count
     count += 1
   end
   # Write this implementation
