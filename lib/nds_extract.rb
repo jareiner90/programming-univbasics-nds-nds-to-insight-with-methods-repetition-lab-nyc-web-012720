@@ -31,7 +31,7 @@ def list_of_directors(source)
   while count < source.length
     pp source[count]
     # array << name
-    # count += 1
+    count += 1
   end
   array
 end
